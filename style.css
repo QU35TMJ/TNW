@@ -91,9 +91,6 @@ header{
     
 
 }
-.main{
-    
-}
 .main-article{
    
     float: left;
@@ -282,3 +279,131 @@ header{
     text-decoration: none;
     color: #555;
 }
+
+/*Articles*/
+
+.grid-art h2{
+    margin: 0 auto 10px;
+}
+.art-container{
+    width: 100%;
+    margin-top: -190px;
+}
+.articles{
+    width: 90%;
+    margin-left: 90px;
+    margin-right: 133px;
+    display: grid;
+    grid-template-columns:repeat(3,30%) ;
+    grid-template-rows: repeat(3, 30%);
+    grid-gap: 80px 20px;
+
+
+}
+.main-articles{
+    background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/08/bitcoin_today-header_bitcoin_today-368x276.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px ;
+    padding-top: 30px;
+}
+.main-articles h1, .main-articles p{
+    color: black;
+    margin-left: 20px;
+}
+/*
+.main-articles p{
+    color: grey;
+}*/
+.latest{
+    display: flex;
+}
+.late-img{   
+    flex: 0 0 96px;
+   /* height: 200px;
+    width: 80px;*/
+    background-repeat: no-repeat;
+    background-size: 100px 100px;
+    background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/Twitter-CEO-Jack-Dorsey-hed.jpg");
+}
+.latest-header{
+    background: rgba(255,68,34,.08);
+    height: 100px;
+    width: 80%;    
+}
+.latest-header h5{
+    color: red;
+
+}
+.latest p{
+    color: red;
+    margin-top: -10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.links li{
+    margin-left: -40px;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+    list-style-image: url("");
+
+} 
+.links li::before{
+    content: '•';
+    padding-right: 10px;
+    display: inline-block;
+    color: var(--THEME_COLOR,#811d15);
+    font-size: calc(1em + ((.4vw + .25vh)/ 2));
+    position: relative;
+    top: 2px;
+}
+ /*Latest Deals*/
+ 
+ .deals-header{
+     width: 90%;
+    display: inline-block;
+ }
+.deals-header a{
+    float: right;
+    margin-top:-50px;
+    text-decoration:none ;
+    color: red;
+    font-size: 22px;
+}
+.deals-header h2{
+    margin-left: 90px;
+    font: bolder;
+}
+.deals{
+    display: grid;    
+    grid-template-columns: repeat(4,25%) ;
+    grid-template-rows: repeat(2,50%);
+    row-gap: 20px;
+    column-gap:20px ;
+    margin-left: 90px;
+    margin-right: 214px;
+}
+/*
+.deal{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("https://cdnp0.stackassets.com/a53bd442bfc4a7db000bdb5ed56cc4a0faeec93b/store/c4c021174b067b6269067447b29d3751ba731e0e1b62bcc86223fd9f4298/sale_28086_primary_image.jpg");
+}*/
+.deal img{
+    width: 300px;
+}
+.deal h3, .deal span{
+    
+}
+.old-price{
+    color:#aaa;
+    font-weight: 400;
+    font-size: 18px;
+    text-decoration: line-through
+}
+.price{
+    color:#555;
+    font-weight: bold;
+    font-size: 20px;
+}
+
