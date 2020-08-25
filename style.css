@@ -1,0 +1,84 @@
+/*body*/
+*{
+    box-sizing: border-box;
+    
+}
+
+ul,li{
+    list-style: none;
+}
+
+header{
+    width: 100%;
+}
+
+/*header*/
+.nav-top{
+    background-color: black;
+    height: 50px;
+    width: inherit;
+    letter-spacing: 1px;
+    margin-top:-10px;    
+}
+.nav-top ul{
+    list-style: none;
+    display: inline-block;
+    position: relative;
+}
+.top-left li, .top-right li{
+    display: inline-block;   
+}
+
+.top-right {
+    margin-right: 20px;
+    float: right;
+}
+.top-right a, .top-left a{
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+    padding-right: 5px;
+    
+}
+.main-nav{
+    width: inherit;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    /*background-color: rgba(247, 243, 243, 0.966);*/
+}
+
+.logo .search, .nav-list li, .nav-list ul, .tnw2020{
+    display: inline-block;
+}
+.logo img{
+    height: 50px;
+}
+.nav-list a, .tnw2020{
+    text-decoration: none;
+    color: gray;
+    font-size: 16px;
+    padding-left: 20px;
+    text-transform: uppercase;
+}
+.search{
+    float:right;
+    margin-left: 350px;
+    border-left: 1px solid grey;
+
+}
+.ilinksearch, .tnw2020{
+    padding-left: 20px;
+}
+.nav-down{
+    height: 30px;
+    
+    
+    background-color: rgba(247, 247, 35, 0.979);
+}
+.nav-down span{
+    display: block;
+    padding-left: 170px ;
+    font-size: 18px;
+    padding-top: 5px;
+}
