@@ -82,3 +82,203 @@ header{
     font-size: 18px;
     padding-top: 5px;
 }
+/*main featured articles*/
+.main-featured{
+    display: block;
+    margin: 0 auto;
+    padding: 10px;
+    height: 75vh;
+    
+
+}
+.main{
+    
+}
+.main-article{
+   
+    float: left;
+    height: 100%;
+    width: 66%;
+    background-size: cover;
+    /*background-image: linear-gradient(to right,red, rgb(248, 16, 16));*/
+    background-repeat: no-repeat;
+    background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/08/Untitled-design-2020-08-24T160614.887-796x417.png");
+}
+
+.main-article-logo{
+    background-image: url("https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/tnw.svg");
+    background-repeat: no-repeat;
+    width: 500px;
+    height: 300px;
+    margin: 20px 0 -10px 20px;
+}
+.date{
+    color: grey;  
+    float: right;
+    margin-right: 20px;
+}
+.main-article h1,h5{
+    color: #fff;
+    margin-left: 20px;
+}
+.main-article h1{    
+    font-size: 48px;    
+}
+.author{
+     color: grey; 
+     padding-left: 20px;
+}
+.main-top{
+    margin-bottom: 5px;
+    float: right;
+    height: 49%;
+    width: 33.33333%;
+    background-image:url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/08/tnw2020-empty_feature_img.jpg");
+    background-repeat: no-repeat;
+}
+.main-top h1{
+    font-size: 28px;
+    color: white;
+    padding: 10px 0 0 20px;    
+}
+.main-top h5{
+    font-size: 18px;
+    padding-top: 100px;
+}
+.main-bottom{
+    float: right;
+    height: 50%;
+    width: 33.33333%;
+    background-repeat: no-repeat;
+    background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/08/Dinoswords_ProductHunt_GalleryImage2_v1-1-796x476.png");
+}
+.main-bottom h1{
+    font-size: 28px;
+    padding-left: 20px ;
+    padding-top: 1px;
+}
+.main-bottom h5{
+    font-size: 18px;
+    padding-top: 30px;
+}
+/*latest news*/
+.container{
+    width: 100%;
+    
+}
+.container h2{
+    color: red;
+    margin-left: 100px;
+}
+.latest-articles{
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    grid-template-rows: repeat(2, 50%);
+    grid-gap: 20px;
+    margin-left: 90px;
+    margin-right: 150px;
+}
+.latest-news h4{
+    margin-bottom: -10px;
+}
+.latest-news p{    
+    color: grey;
+}
+.newsimg img{
+    width: 100%;
+}
+/*Latest Funds*/
+.latest-funding{
+    width:100%;
+    margin-top: 20px;
+}
+.funding-header{
+    height: 50px;
+    display: inline-block;
+    width: 88%;
+    margin-left: 90px;
+    margin-right: 150px;
+}
+.funding-header h2{
+    margin-left: 0;
+}
+.funding-links{
+    float: right;
+    margin-top: -45px;
+}
+.funding-links a{
+    color: red;
+    font-size: 20px;
+    padding-left: 5px;
+    padding-right: 5px ;
+    text-decoration: none;
+    border-left: 1px solid red;
+    
+}
+.funding-grid{    
+    display: grid;
+    grid-template-columns: repeat(4,25%);
+    grid-template-rows: 50%;
+    column-gap: 15px;
+    margin-left: 90px;
+    margin-right: 133px;
+    height: 500px;
+}
+.company-name{
+    background: #f42;
+    color: #fff;
+    padding: 10.6666666667px 16px 10.6666666667px 84px;
+    margin: 0!important;
+    font-size: 18px!important;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.amount{
+    padding: 10.6666666667px 16px 10.6666666667px 84px;
+    color: #000;
+    background: rgba(255,68,34,.08);
+    margin: 0;
+    display:block;
+    height: 50px;
+}
+.amount-given{
+    margin-top: -8px;
+}
+.amount-type{
+    color: grey;
+    margin-top: -15px;
+}
+.company img{
+    position: absolute;
+    width: 3%;
+    height: 8%;
+    margin: 15px 0 0 15px;
+}
+.details{
+    padding: 16px;
+    background: rgba(255,68,34,.03);;
+    width: 100%;
+    height: 100px;
+}
+.details1{
+    padding-left: 2em;
+    position: relative;
+    font-size: 20pxpx;
+    color: #555;
+    margin-right: 1em;
+    display: block;
+    line-height: 12px;
+}
+.details1 p::before{
+    content: '';
+    background-image: url();
+}
+.details2{
+    
+    border-top: 1px solid red;
+}
+.details a{
+    text-decoration: none;
+    color: #555;
+}
