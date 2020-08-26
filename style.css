@@ -13,6 +13,7 @@ ul,li{
 
 header{
     width: 100%;
+    display: inline;
 }
 
 /*header*/
@@ -21,7 +22,8 @@ header{
     height: 50px;
     width: inherit;
     letter-spacing: 1px;
-    margin-top:-10px;    
+    margin-top:-10px;  
+    position: relative;  
 }
 .nav-top ul{
     list-style: none;
@@ -48,7 +50,8 @@ header{
     height: 50px;
     display: flex;
     flex-direction: row;
-    /*background-color: rgba(247, 243, 243, 0.966);*/
+    /*position: fixed;
+    background-color: rgba(247, 243, 243, 0.966);*/
 }
 
 .logo .search, .nav-list li, .nav-list ul, .tnw2020{
@@ -476,6 +479,18 @@ footer{
   /* 1023px small screens, laptops */
 @media (max-width: 1023px) {
     /* FEATURED ARTICLES */
+    .main-nav{
+        width: 130%;
+    }
+    .search {
+        margin-left: 10px;
+        
+    }
+    .ilinksearch{
+        margin-top: 20px;
+    }
+
+    .tnw2020{display: none;}
     .main-featured {
       height: 55vh;
     }
