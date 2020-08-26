@@ -383,17 +383,30 @@ header{
     margin-left: 90px;
     margin-right: 214px;
 }
-/*
-.deal{
-    background-size: cover;
+
+.discount{
+    background-image: url("https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/deals-ribbon.svg");
     background-repeat: no-repeat;
-    background-image: url("https://cdnp0.stackassets.com/a53bd442bfc4a7db000bdb5ed56cc4a0faeec93b/store/c4c021174b067b6269067447b29d3751ba731e0e1b62bcc86223fd9f4298/sale_28086_primary_image.jpg");
-}*/
+    background-size: cover;
+    height: 120px;
+    width: 120px;
+    position: absolute;
+    left:18.5% ;
+    display: block;
+    overflow: hidden;
+    /*color: #000;    
+    pointer-events: none;    
+    z-index: 11;*/
+}
+.discount-percent{
+    transform: rotate(50deg);
+    font-size:14px;
+    font-weight: 900;
+    padding-top: 20px;
+    padding-left:57px ;
+}
 .deal img{
     width: 300px;
-}
-.deal h3, .deal span{
-    
 }
 .old-price{
     color:#aaa;
@@ -406,4 +419,40 @@ header{
     font-weight: bold;
     font-size: 20px;
 }
-
+/*footer*/
+footer{
+    margin-top: 20px;
+    text-align: center;
+}
+.socials{
+    width:100%;
+    height: 100px;
+    background-color: #555;
+    display: inline-block;
+    padding-top:25px;    
+}
+.legal{
+    height: 50px;
+    margin-top: -16px;
+    background-color: #000;
+    color: #aaa;
+    padding-top:10px;
+}
+.legal span{
+    color: white;
+}
+.button, li{
+    display: inline;   
+}
+.button{
+    padding: 12px ;
+    background-color: #aaa;
+    border-radius:60%; 
+    margin-right:10px;
+}
+.socials a{
+    text-decoration: none;
+    color: #aaa;
+    font-size:14px;
+    padding-right:10px;
+}
