@@ -441,7 +441,7 @@ footer{
 .legal span{
     color: white;
 }
-.button, li{
+.button, .socials li{
     display: inline;   
 }
 .button{
